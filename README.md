@@ -8,6 +8,7 @@ There are two requirements:
 
 You can check what version of python your version of GNAT Studio supports by going into the "pyhon" view and typing:
 > import sys
+
 > sys.version
 
 libadalang is typically included in GNAT Studio binaries from AdaCore.
