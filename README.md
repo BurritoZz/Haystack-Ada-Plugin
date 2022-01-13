@@ -7,20 +7,25 @@ There are two requirements:
  - libadalang
 
 You can check what version of python your version of GNAT Studio supports by going into the "pyhon" view and typing:
-> import sys
-
-> sys.version
+```
+>>> import sys
+>>> sys.version
+```
 
 libadalang is typically included in GNAT Studio binaries from AdaCore.
 This can also be checked in GNAT Studio's python console by typing:
-> import libadalang
+```
+>>> import libadalang
+```
 
 If a ModuleNotFoundError is returned libadalang is not yet installed and you will need to do that yourself by buliding from source:
 https://github.com/AdaCore/libadalang/blob/master/user_manual/building.rst
 
 ### Install instructions:
 First we need to install Haystack's backend:
-> $ pip install Haystack-Ada
+```
+$ pip install Haystack-Ada
+```
 
 Then there are three methods to launch GNAT Studio with the plug-in installed:
 
@@ -33,8 +38,9 @@ Add the root folder of Haystack-Ada-Plugin to the GNATSTUDIO_CUSTOM_PATH environ
 
 #### 3. Command line
 For an impermanent installation of the plug-in, you can launch GNAT Studio from the command line:
-> $ gnatstudio --load=python:path/to/haystack_plugin.py
-
+```
+$ gnatstudio --load=python:path/to/haystack_plugin.py
+```
 
 ## Usage:
 ![Haystack-Plugin](https://user-images.githubusercontent.com/16014794/149335401-1479299a-f949-4847-b167-916a864c790f.PNG)
