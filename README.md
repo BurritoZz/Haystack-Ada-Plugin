@@ -6,7 +6,7 @@ There are two requirements:
  - GNAT Studio with Python 3 support (22.0 or newer, 22.0w is still python 2)
  - Python 3.7.6 installed system-wide
 
-You can check what version of python your version of GNAT Studio supports by going into the "pyhon" view and typing:
+You can check what version of python your version of GNAT Studio supports by opening up the python console and typing:
 ```
 >>> import sys
 >>> sys.version
