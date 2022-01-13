@@ -16,9 +16,9 @@ The other things included in the window are as follows:
  - Where: In this dropdown menu the user is able to select what context Haystack should search for the search pattern.
 
 Finally the buttons:
-Find: Pressing this button will prompt Haystack to search the selected context for any matches to the search pattern.
-Find all: Same as Find, only now Haystack will add all found matches to GNAT Studio's Locations view
-Next: Once matches have been found, this button will select the next match found.
-Previous: Once matches have been found, this button will select the previous match found.
-Replace Next: Once matches have been found, this button will apply the replacement to the currently selected match and then select the next match.
-Replace All: Once matches have been found, this button will apply the replacement to all found matches.
+ - Find: Pressing this button will prompt Haystack to search the selected context for any matches to the search pattern.
+ - Find all: Same as Find, only now Haystack will add all found matches to GNAT Studio's Locations view
+ - Next: Once matches have been found, this button will select the next match found.
+ - Previous: Once matches have been found, this button will select the previous match found.
+ - Replace Next: Once matches have been found, this button will apply the replacement to the currently selected match and then select the next match.
+ - Replace All: Once matches have been found, this button will apply the replacement to all found matches.
