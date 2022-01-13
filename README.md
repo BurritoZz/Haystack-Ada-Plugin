@@ -4,7 +4,7 @@
 ### Requirements
 There are two requirements:
  - GNAT Studio with Python 3 support (22.0 or newer, 22.0w is still python 2)
- - libadalang
+ - Python 3.7.6 installed system-wide
 
 You can check what version of python your version of GNAT Studio supports by going into the "pyhon" view and typing:
 ```
@@ -24,7 +24,7 @@ https://github.com/AdaCore/libadalang/blob/master/user_manual/building.rst
 ### Install instructions:
 First we need to install Haystack's backend:
 ```
-$ pip install Haystack-Ada
+$ python -m pip install Haystack-Ada
 ```
 
 Then there are three methods to launch GNAT Studio with the plug-in installed:
